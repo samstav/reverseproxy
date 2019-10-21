@@ -7,5 +7,8 @@
         "/hello": "https://192.168.88.250:8090",
         "/static/": "http://192.168.88.250:8080",
         "#/disabled": "192.168.88.250:8080"
+    },
+    "proxies": {
+        "localhost": "http://localhost:9000"
     }
 }
